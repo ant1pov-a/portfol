@@ -1,0 +1,292 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, h6{
+	margin: 0;
+}
+
+.clearfix {
+	content: '';
+	display: table;
+	clear: both;
+}
+
+/*HEADER*/
+
+.header {
+	width: 1110px;
+	margin: 0 auto;
+	padding-top: 36px;
+	margin-bottom: 30px;
+}
+
+.logo {
+	font-size: 30px;
+	text-transform: uppercase;
+	text-decoration: none;
+	float: left;
+	font-weight: 700;
+	color: #555252;
+}
+.logo:first-letter {
+	color: #1abc9c;
+	font-weight: bold;
+}
+
+
+
+.nav {
+	float: right;
+}
+
+.nav__item {
+	float: left;
+	padding: 10px 18px;
+
+	text-transform: uppercase;
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	list-style: none;
+
+	color: #0f0101;
+}
+
+.nav__item:hover {
+	color: #1abc9c;
+	transition: .2s linear;
+	cursor: pointer;
+}
+
+/*SLIDER*/
+
+.slider {
+	position: relative;
+}
+
+.slider__img {
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+}
+
+.slider__menu{
+	width: 1110px;
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.slider__title {
+	font-size: 60px;
+	color: #fff;
+	text-transform: uppercase;
+	display: inline-block;
+	font-weight: bold;
+}
+
+.slider__subtitle {
+	font-size: 24px;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.slider__btn {
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	color: #fff;
+	font-size: 100px;
+	background-color: rgba(70, 195, 178, 0.5);
+	border: none;
+	line-height: 100px;
+}
+
+.slider__btn:hover {
+	background-color: rgba(70, 195, 178, 1);
+	transition: .2s linear;
+}
+
+
+.btn__prev {
+	top: 50%;
+	left: 0;
+	transform: translate(-50%, -50%);
+
+}
+
+.btn__next {
+	top: 50%;
+	left: 100%;
+	transform: translate(-50%, -50%);
+}
+/*PRODUCT*/
+
+
+.collection {
+	background-color: #e9f0fd;
+}
+
+.container {
+	width: 1110px;
+	margin: 0 auto;	
+}
+
+.section__title {
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	font-size: 48px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #515151;
+	
+
+
+}
+
+.section__title:after {
+	content: '';
+	display: block;
+	width: 164px;
+	height: 7px;
+	background-color: #1abc9c;
+	margin: 26px auto 92px auto;
+}
+
+.product__item {
+	position: relative;
+	float: left;
+
+	margin-right: 30px;
+	margin-bottom: 30px;
+
+	background-color: #fff;
+	cursor: pointer;
+	margin-bottom: 100px;
+}
+
+.product__item:nth-child(4n+1) {
+	margin-right: 0;
+}
+
+.product__item:hover .product__title {
+	background-color: #1abc9c;
+	transition: .2s linear;
+}
+.product__item:hover .product__price {
+	background-color: #7fd9c7;
+	transition: .2s linear;
+}
+
+.product__item:hover .hover__background {
+	display: block;
+}
+
+.hover__background {
+	display: none;
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	background-color: rgba(0, 0, 0, 0.5);
+	width: 235px;
+	height: 302px;
+}
+
+.hover__menu {
+	position: absolute;
+	top: 80px;
+	left: 36px;
+}
+
+.hover__icon {
+
+	width: 50px;
+	height: 50px;
+
+	text-align: center;
+	padding: 12px 0;
+	display: inline-block;
+	font-size: 24px;
+
+	color: #fff;
+	border: 1px solid #fff;
+}
+
+.hover__icon:hover {
+	background-color: #1abc9c;
+}
+
+.hover__icon-cart {
+	text-align: center;
+	padding: 18px 12px;
+	margin-top: 10px;
+	display: inline-block;
+	font-size: 16px;
+	text-transform: uppercase;
+
+	color: #fff;
+	background-color: #323232;
+	border: 1px solid #fff;
+}
+
+.hover__icon-cart:hover {
+	background-color: #1abc9c;	
+}
+
+.product__title {
+	padding: 12px 0 12px 12px;
+	width: 200px;
+
+	color: #fff;
+	background-color: #323232;
+	text-transform: uppercase;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+
+	float: left;
+}
+
+
+.product__price {
+	float: right;
+	padding: 12px ;
+
+	
+	background-color: #8c8c8c;
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	font-weight: 700;
+}
+
+
+/*FOOTER*/
+
+.footer {
+	background-color: #323232;
+	height: 90px;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.footer__text {
+	color: #fff;
+	font-size: 16px;
+	padding: 35px 0;
+}
+
+.footer__text::after {
+	content: ' ThemenGraph';
+	color: #46bfa9;
+}

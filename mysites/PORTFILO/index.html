@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,300i,400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+   
+   <header class="header">
+       <div class="container">
+            <div class="header__inner">
+                <div class="user">
+                    <div class="user__avatar">
+                        <img src="./images/myicon1.png" alt="">
+                    </div>
+                    
+                    <div class="user__content">
+                        <div class="user__name">Anton <br> Legkobyt</div>
+                        <div class="user__prof">Trainee Front-End Developer</div>
+                    
+                    </div>
+                </div>
+                <nav class="nav">
+                    <a href="#" class="nav__link">Work</a>
+                    <a href="#" class="nav__link">About me</a>
+                    <a href="#" class="nav__link">Blog</a>
+                    <a href="#" class="nav__link">Contact</a>
+                    <a href="#" class="nav__link--hire" data-modal="#modal_hire_me">Hire me</a>
+                </nav>
+                
+                <div class="burger">
+                    <img class="burger__icon" src="./images/menu.svg" alt="">
+                </div>
+                
+            </div>
+       </div>
+   </header>
+   
+   
+   <section class="section">
+       <div class="container">
+           <div class="intro">
+               <div class="intro__content">
+                   <h2 class="intro__suptitle">Hello, i'm</h2>
+                   <h1 class="intro__title">Anton Legkobyt</h1>
+                   <h3 class="intro__subtitle">Trainee Front-End Developer</h3>
+                   <div class="intro__social">
+                       <a href="#" class="intro__link">
+                           <img class="intro__icon" src="./images/svg/facebook.png" alt="">
+                       </a>
+                       <a href="https://www.instagram.com/ant1pov.a/" target="_blank" class="intro__link">
+                           <img class="intro__icon" src="./images/svg/instagram.png" alt="">
+                       </a>
+                       <a href="https://www.linkedin.com/in/legkobyt" target="_blank" class="intro__link">
+                            <img class="intro__icon" src="./images/svg/in.png" alt="">
+
+                       </a>
+                       <a href="https://twitter.com/" target="_blank" class="intro__link">
+                           <img class="intro__icon" src="./images/svg/twitter.png" alt="">
+
+                       </a>
+                       
+                   </div>
+                   
+                   <button class="nav__btn" data-modal="#modal_hire_me">Hire me</button>
+                   <button class="nav__btn nav__btn--resume" data-modal="#modal_resume">See my resume</button>
+                   
+               </div>
+               <div class="intro__photo"><img src="./images/photo.png" alt=""></div>
+           </div>
+       </div>
+   </section>
+   
+   
+   <section class="works">
+       <div class="container">
+           
+           <div class="portfolio">
+               <div class="portfolio__col">
+                   <div class="work">
+                       <img src="images/works/1.jpg" alt="" class="work__image">
+                       <div class="work__content">
+                           <p class="work__title">Cospo</p>
+                           <p class="work_year">2019</p>
+                       </div>
+                   </div>
+               </div>
+               <div class="portfolio__col">
+                   
+                   <div class="work">
+                        <img src="images/works/2.jpg" alt="" class="work__image">
+                       <div class="work__content">
+                           <p class="work__title">Modas</p>
+                           <p class="work_year">2019</p>
+                       </div>
+                   </div>
+                   
+               </div>
+               <div class="portfolio__col">
+                   
+                   <div class="work">
+                        <img src="images/works/3.jpg" alt="" class="work__image">
+                       <div class="work__content">
+                           <p class="work__title">Them</p>
+                           <p class="work_year">2019</p>
+                       </div>
+                   </div>
+                   
+               </div>
+               
+               <div class="portfolio__col">
+                   
+                   <div class="work">
+                       <img src="images/works/4.jpg" alt="" class="work__image">
+                       <div class="work__content">
+                           <p class="work__title">Love story</p>
+                           <p class="work_year">2019</p>
+                       </div>
+                   </div>
+                   
+               </div>
+               
+               <div class="portfolio__col">
+                   
+                   <div class="work">
+                       <img src="images/works/5.jpg" alt="" class="work__image">
+                       <div class="work__content">
+                           <p class="work__title">Uno</p>
+                           <p class="work_year">2019</p>
+                       </div>
+                   </div>
+                   
+               </div>
+               
+               <div class="portfolio__col">
+                   
+                   <div class="work">
+                       <img src="images/works/6.jpg" alt="" class="work__image">
+                       <div class="work__content">
+                           <p class="work__title">Blossom</p>
+                           <p class="work_year">2019</p>
+                       </div>
+                   </div>
+                   
+               </div> 
+               
+           </div>
+           
+       </div>
+   </section>  <!--   /.works-->
+   
+   
+   <section class="about">
+       <div class="container">
+           <div class="about__inner">
+               <div class="about__photo">
+                   <img src="./images/designer_photo.png" alt="">
+               </div>
+               <div class="about__content">
+                   <h3 class="about__title">About me</h3>
+                   <h2 class="about__title-big">Who am i</h2>
+                   <div class="about__text">
+                       <p>Привет, меня зовут Антон. Родился, вырос и живу в Киеве. Мне 20 лет, обручен.</p>
+                       <p> С 2017 года обучаюсь в Государственном университете телекоммуникаций. Закончил курс верстальщика в академии GOIT в 2020 году. Владею английским языком на уровне В2.</p>
+                       <p>Имею очень сильные аналитические способности,  пунктуальность, ответственность, добросовестность, самостоятельность, высокую работоспособность, умение в кратчайшие сроки изучить проблему любой сложности, дисциплинированность, исполнительность, склонность к повышению образования, умение работать одинаково продуктивно как в группе так и индивидуально. </p>
+                   </div>
+                   
+                   <button class="nav__btn">Hire me</button>
+                   <button class="nav__btn nav__btn--resume">See my resume</button>
+                   
+               </div>
+           </div>
+       </div>
+   </section>
+   
+   
+   <div class="reviews">
+       <div class="container">
+           
+           <div class="reviews__item">
+               <div class="reviews__text">
+                   <p>Заказывал у Антона верстку уже готового макета товарного лендинг-пейдж. Во-первых, исполнитель выполнил поставленные задачи раньше срока. Во-вторых, порадовало качество работы при достаточно демократичной цене. Рекомендую!</p>
+               </div>
+               
+               <div class="reviews__author">
+                   <img class="reviews__photo" src="./images/Dmitry.jpg" alt="">
+                   <div class="reviews__name">Dmitry Demidko</div>
+                   <div class="reviews__company">Brokker group</div>
+                   <div class="reviews__rating">★★★★★</div>
+
+               </div>
+               
+           </div>
+           
+       </div>
+   </div>
+   
+   <section class="blog">
+       <div class="container">
+           
+           <div class="blog__header">
+           <h1 class="about__title">Read me</h1>
+           <h3 class="intro__subtitle">Lorem ipsum dolor</h3>
+           </div>
+           
+           <div class="blog__inner">
+               <div class="blog__item">
+                   <div class="blog__date">
+                       <p>10<br>December</p>
+                   </div>
+                   <img class="blog__photo" src="https://placehold.it/370x257/333" alt="">
+                   <a href="#" class="blog__title">Lorem ipsum dolor</a>
+                   <p class="blog__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae voluptatum laboriosam sequi consequuntur molestias, quam recusandae doloribus quia provident facilis enim quis nam ex obcaecati porro, harum animi fugit atque.</p>
+               <a href="#" class="blog__btn">Read More</a>
+               </div>
+               
+               <div class="blog__item">
+                   <div class="blog__date">
+                       <p>5<br>January</p>
+                   </div>
+                   <img class="blog__photo" src="https://placehold.it/370x257/333" alt="">
+                   <a href="#" class="blog__title">Lorem ipsum dolor</a>
+                   <p class="blog__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae voluptatum laboriosam sequi consequuntur molestias, quam recusandae doloribus quia provident facilis enim quis nam ex obcaecati porro, harum animi fugit atque.</p>
+               <a href="#" class="blog__btn">Read More</a>
+               </div>
+               
+               <div class="blog__item">
+                   <div class="blog__date">
+                       <p>2<br>February</p>
+                   </div>
+                   <img class="blog__photo" src="https://placehold.it/370x257/333" alt="">
+                   <a href="#" class="blog__title">Lorem ipsum dolor</a>
+                   <p class="blog__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae voluptatum laboriosam sequi consequuntur molestias, quam recusandae doloribus quia provident facilis enim quis nam ex obcaecati porro, harum animi fugit atque.</p>
+               <a href="#" class="blog__btn">Read More</a>
+               </div>
+               
+               
+               
+           </div>
+           
+       </div>
+   </section>
+   
+   
+   <footer class="footer">
+       <div class="container">
+           <div class="footer__inner">
+               <div class="footer__text">© 2020 - made by Anton Legkobyt</div>
+               
+               <div class="footer__menu">
+                   <a href="" class="footer__link">Work</a>
+                   <a href="" class="footer__link">About me</a>
+                   <a href="" class="footer__link">Blog</a>
+                   <a href="" class="footer__link">Contact</a>
+                   <a href="" class="blog__btn footer__btn">Hire me</a>
+               </div>
+           </div>
+       </div>
+   </footer>
+   
+   <div class="modal" id="modal_project1">
+       <div class="modal__dialog">
+          
+          <button class="modal__close" type="button" data-close><img src="./images/close.svg" alt=""></button>
+           
+           <div class="modal-work">
+               <div class="modal-work__preview">
+                   <img class="modal-work__photo" src="https://placehold.it/787x774/ccc" alt="">
+               </div>
+               <div class="modal-work__content">
+                  <div class="modal-work__header">
+                          <h3 class="modal-work__title">Projects title</h3>
+                          <h4 class="modal-work__info">Category | 2019</h4>
+                      </div>
+                      
+                      
+                      <p class="modal-work__client">Client:</p>
+                      <p class="modal-work__agency">Creative Agency</p>
+                      <p class="modal-work__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum cupiditate, ducimus ipsa suscipit, deleniti veritatis optio accusamus pariatur omnis tempora quis perspiciatis iste maxime. Ea, voluptatem enim. Itaque asperiores, obcaecati.Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                      
+                  <div class="modal-work__footer">
+                      <button class="modal-work__btn modal-work__btn-prev" type="button">🡰 Previous</button>
+                      <button class="modal-work__btn modal-work__btn-next" type="button">Next 🡲</button>
+                  </div>
+                  
+               </div>
+               
+           </div>
+           
+       </div>
+   </div>
+   
+   
+   
+   
+   <div class="modal" id="modal_resume">
+       <div class="modal__dialog">
+          
+          <button class="modal__close" type="button" data-close><img src="./images/close.svg" alt=""></button>
+           
+           <div class="modal__content">
+                <h3 class="modal__title">Resume</h3>
+                
+                <div class="modal__btns">
+                    <a href="#" class="blog__btn modal__btn">Download PDF</a>
+                    <a href="#" class="blog__btn modal__btn">Print</a>
+                </div>
+                
+                <div class="timeline">
+                    <div class="timeline__col timeline__col--left">
+                      <h4 class="timeline__title">Experience</h4>
+                      
+                        <div class="timeline__item">
+                            <div class="timeline__date">2019 - <b>Present</b> </div>
+                            <h5 class="timeline__subtitle">Freelance</h5>
+                            <div class="timeline__position">HTML/CSS верстальщик</div>
+                            <div class="timeline__text">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat odit quam qui officiis, sunt magnam, mollitia magni ipsam ocol mrohe dolni sopren bakod.</p>
+                            </div>
+                            
+                        </div>
+                          
+                          <h4 class="timeline__title">Awards</h4>
+                       <h5 class="timeline__position">Coming soon...</h5>
+                        
+                    </div>
+                    <div class="timeline__col timeline__col--right">
+                      <h4 class="timeline__title">Education</h4>
+                      
+                      <div class="timeline__item">
+                            <div class="timeline__date">2017 - <b>2021</b> </div>
+                            <h5 class="timeline__subtitle">State University of Telecommunications</h5>
+                            <div class="timeline__position">Telecommunication systems and networks</div>
+                            
+                        </div>
+                        
+                        <div class="timeline__item">
+                            <div class="timeline__date">2019</div>
+                            <h5 class="timeline__subtitle">GO IT Academy</h5>
+                            <div class="timeline__position">Frontend Developer</div>
+                            
+                        </div>
+                        
+                        <h4 class="timeline__title">Skills</h4>
+                           <div class="progress-bar">
+                               <div class="progress-bar__left">
+                                   <div class="progress-bar__title">HTML/CSS</div>
+                                   <div class="progress-bar__title">JavaScript</div>
+                                   <div class="progress-bar__title">Photoshop/Figma/XD</div>
+                                   <div class="progress-bar__title">GIT</div>
+                               </div>
+                               <div class="progress-bar__right">
+                                   <div class="progress-bar__item">
+                                       <div class="progress-bar__progress" style="width: 90%"></div>
+                                   </div>
+                                   
+                                   <div class="progress-bar__item">
+                                       <div class="progress-bar__progress" style="width: 20%"></div>
+                                   </div>
+                                   
+                                   <div class="progress-bar__item">
+                                       <div class="progress-bar__progress" style="width: 60%"></div>
+                                   </div>
+                                   
+                                   <div class="progress-bar__item">
+                                       <div class="progress-bar__progress" style="width: 80%"></div>
+                                   </div>
+                               </div>
+                           </div>
+                        
+                    </div>
+                </div>
+                
+                <div class="text__center">
+                    <button class="nav__btn">Hire me</button>
+                </div>
+           </div>
+           
+           
+       </div>
+   </div>
+   
+   
+   
+   
+    <div class="modal" id="modal_hire_me">
+       <div class="modal__dialog modal__dialog-sm">
+          
+          <button class="modal__close" type="button" data-close><img src="./images/close.svg" alt=""></button>
+           
+           <div class="modal__inner">
+               <div class="modal__content-left">
+                    <h3 class="modal__title">Let's talk</h3>
+                    <h4 class="modal-work__info">CALL ME OR SEND ME A REQUEST</h4>
+                    <div class="modal__contcts">
+                        <p class="modal__contcts-phone progress-bar__title"><img src="./images/svg/phone.svg" alt="phone"> (095) 626 78 79</p>
+                        <p class="modal__contcts-email progress-bar__title"><img src="./images/svg/message.svg" alt=""> anton.legkobyt@gmail.com</p>
+                    </div>
+                    
+                <form action="/" method="post">
+                    <label for="input-email" class="label">Enter your e-mail</label>
+                    <input type="text" class="input" id="input-email" placeholder="Adress e-mail">
+                    
+                    <label for="input-text" class="label">Request</label>
+                    <textarea name="input-text" id="input-text" class="textarea">Type your request...</textarea>
+                </form>
+                   
+                   <button class="nav__btn">Hire me</button>
+                    
+                </div>
+                
+                
+                <div class="modal__content-right">
+                    <img src="./images/modal.jpg" alt="">
+                </div>
+               
+           </div>
+           
+           
+       </div>
+   </div>
+   
+   
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+   
+   <script src="js/app.js"></script>
+   
+</body>
+</html>
