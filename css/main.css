@@ -474,6 +474,9 @@ h1, h2, h3, h4, h5, h6{
 	.contact__subtitle {
 		display: none;
 	}
+	.nav__menu {
+		display: none;
+	}
 }
 @media screen and (max-width: 425px) {
 	.portfolio__cards{
@@ -482,5 +485,8 @@ h1, h2, h3, h4, h5, h6{
 	}
 	.portfolio__icon {
 		width: auto;
+	}
+	.nav__menu {
+		display: none;
 	}
 }
