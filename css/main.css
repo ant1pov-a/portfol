@@ -467,7 +467,7 @@ h1, h2, h3, h4, h5, h6{
 
 /*MEDIA*/
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
 	.portfolio__cards{
 		justify-content: space-around;
 	}
@@ -477,8 +477,12 @@ h1, h2, h3, h4, h5, h6{
 	.nav__menu {
 		display: none;
 	}
+
 }
 @media screen and (max-width: 413px) {
+	body {
+		overflow: hidden;
+	}
 	.portfolio__cards{
 		flex-direction: column;
 		padding: 10px;
@@ -489,4 +493,5 @@ h1, h2, h3, h4, h5, h6{
 	.nav__menu {
 		display: none;
 	}
+
 }
