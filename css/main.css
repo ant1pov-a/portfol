@@ -235,6 +235,29 @@ h1, h2, h3, h4, h5, h6{
 	font-size: 15px;
 	line-height: 26px;
 }
+.facts__title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    margin-bottom: 64px;
+
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: center;
+}
+.about__facts {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-around;
+}
 
 /*PORTFOLIO*/
 
@@ -440,4 +463,21 @@ h1, h2, h3, h4, h5, h6{
 }
 .copy-js {
 	cursor: pointer;
+}
+
+/*MEDIA*/
+
+@media screen and (min-width: 425px) {
+	.portfolio__cards{
+		justify-content: space-around;
+	}
+}
+@media screen and (max-width: 425px) {
+	.portfolio__cards{
+		flex-direction: column;
+		padding: 10px;
+	}
+	.portfolio__icon {
+		width: auto;
+	}
 }
