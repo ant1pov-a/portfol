@@ -467,9 +467,12 @@ h1, h2, h3, h4, h5, h6{
 
 /*MEDIA*/
 
-@media screen and (min-width: 425px) {
+@media screen and (min-width: 768px) {
 	.portfolio__cards{
 		justify-content: space-around;
+	}
+	.contact__subtitle {
+		display: none;
 	}
 }
 @media screen and (max-width: 425px) {
