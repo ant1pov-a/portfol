@@ -478,7 +478,7 @@ h1, h2, h3, h4, h5, h6{
 		display: none;
 	}
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 413px) {
 	.portfolio__cards{
 		flex-direction: column;
 		padding: 10px;
